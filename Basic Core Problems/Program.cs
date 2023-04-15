@@ -7,9 +7,9 @@ namespace Basic_Core_Problems
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Basic Core Problems!");
-            Console.WriteLine("Find Quotient And Remainder");
-                    Division division = new Division();
-                    division.divide();
+            Console.WriteLine("Checking Even or Odd");
+                    EvenOdd evenOdd = new EvenOdd();
+                    evenOdd.oddEven();
             }
         }
     }
