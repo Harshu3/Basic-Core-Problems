@@ -8,7 +8,7 @@ namespace Basic_Core_Problems
         {
             Console.WriteLine("Welcome to Basic Core Problems!");
             Console.WriteLine("Please choose any one program from below options:");
-            Console.WriteLine("1.Flip Coin\n2.Leap Year\n3.Power of 2\n4.Harmonic Number\n5.Factors\n6.Division7.Swapping Numbers\n8.Even or Odd");
+            Console.WriteLine("1.Flip Coin\n2.Leap Year\n3.Power of 2\n4.Harmonic Number\n5.Factors\n6.Division7.Swapping Numbers\n8.Even or Odd\n9.Vowel or Consonant");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -44,6 +44,10 @@ namespace Basic_Core_Problems
                 case 8:
                     EvenOdd evenOdd = new EvenOdd();
                     evenOdd.oddEven();
+                    break;
+                case 9:
+                    VowelOrConsonant vowelOrConsonant = new VowelOrConsonant();
+                    vowelOrConsonant.alphabet();
                     break;
             }
         }
