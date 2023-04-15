@@ -8,7 +8,7 @@ namespace Basic_Core_Problems
         {
             Console.WriteLine("Welcome to Basic Core Problems!");
             Console.WriteLine("Please choose any one program from below options:");
-            Console.WriteLine("1.Flip Coin\n2.Leap Year\n3.Power of 2\n4.Harmonic Number\n5.Factors\n6.Division");
+            Console.WriteLine("1.Flip Coin\n2.Leap Year\n3.Power of 2\n4.Harmonic Number\n5.Factors\n6.Division\n7.Swapping 2 numbers");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -36,6 +36,10 @@ namespace Basic_Core_Problems
                 case 6:
                     Division division = new Division();
                     division.divide();
+                    break;
+                case 7:
+                    Swap2Nums swapNums = new Swap2Nums();
+                    swapNums.swap();
                     break;
             }
         }
