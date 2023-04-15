@@ -12,10 +12,10 @@ namespace Basic_Core_Problems
         {
             Console.WriteLine("Upto what number you want to print the table?:");
             int n = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("The table of powers of 2 upto "+ n);
+            Console.WriteLine("The table of powers of 2 upto " + n);
             int value = 2;
 
-            for (int power = 0; power <= n; power++) 
+            for (int power = 0; power <= n; power++)
             {
                 Console.WriteLine($"{value}^{power} = {(long)Math.Pow(value, power):N0}");
             }
