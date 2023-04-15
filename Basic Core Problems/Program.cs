@@ -7,9 +7,9 @@ namespace Basic_Core_Problems
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Basic Core Problems!");
-            Console.WriteLine("Displaying Harmonic Number");
-                    HarmonicNumber harmonicNumber = new HarmonicNumber();
-                    harmonicNumber.HarmonicNum();
+            Console.WriteLine("Checking Prime Factor");
+                    Factors factors = new Factors();
+                    factors.fact();
             }
         }
     }
